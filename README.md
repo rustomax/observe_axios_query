@@ -28,7 +28,7 @@ npm start
 
 You should see output along the lines (will vary depending on the query and contents of your dataset):
 
-```json
+```ndjson
 {
   body: 'ts=2025-05-09T03:00:35.464Z caller=write_handler.go:212 level=warn component=web msg="Error translating OTLP metrics to Prometheus write request" err="invalid temporality and type combination for metric \\"app_currency_counter\\""',
   timestamp: '1746759635465229742'
